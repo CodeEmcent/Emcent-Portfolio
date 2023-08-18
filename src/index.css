@@ -125,7 +125,7 @@ img {
 
 .section__title::before {
   content: '';
-  background: url(./assets/1.jpg);
+  background: url(./assets/avatar-1.svg);
   height: 2.25rem;
   width: 2.25rem;
   position: absolute;
@@ -137,10 +137,10 @@ img {
   padding: 0.75rem 2rem;
   line-height: 1;
   border-radius: 1.875rem;
-  -webkit-border-radius: 1.875rem;
-  -moz-border-radius: 1.875rem;
-  -ms-border-radius: 1.875rem;
-  -o-border-radius: 1.875rem;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
   box-shadow: 0 0 1px rgb(0 0 0 / 0%);
   border: 1px solid transparent;
   color: #fff;
