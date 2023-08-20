@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HeaderSocial = () => {
+const HeaderSocials = () => {
   return (
     <div className='home__socials'>
       <a
@@ -17,6 +17,14 @@ const HeaderSocial = () => {
         target='_blank'
       >
         <i className='fa-brands fa-twitter'></i>
+      </a>
+
+      <a
+        href='https://www.instagram.com/'
+        className='home__social-link'
+        target='_blank'
+      >
+        <i className='fa-brands fa-behance'></i>
       </a>
 
       <a
@@ -42,8 +50,16 @@ const HeaderSocial = () => {
       >
         <i className='fa-brands fa-facebook'></i>
       </a>
+
+      <a
+        href='https://www.facebook.com/'
+        className='home__social-link'
+        target='_blank'
+      >
+        <i class='fa-brands fa-linkedin'></i>
+      </a>
     </div>
   )
 }
 
-export default HeaderSocial
+export default HeaderSocials

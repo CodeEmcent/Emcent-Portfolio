@@ -23,7 +23,7 @@
 
 .home__socials {
   display: flex;
-  column-gap: 1.75rem;
+  column-gap: 2.2rem;
   margin: 1.5rem 0;
 }
 
@@ -97,11 +97,11 @@
   position: absolute;
   top: 0.5rem;
   left: 50%;
-  transform: translate(-50%);
-  -webkit-transform: translate(-50%);
-  -moz-transform: translate(-50%);
-  -ms-transform: translate(-50%);
-  -o-transform: translate(-50%);
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
   animation: ani-mouse 2s linear infinite;
   -webkit-animation: ani-mouse 2s linear infinite;
 }

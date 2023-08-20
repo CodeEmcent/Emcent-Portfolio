@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 import Me from '../../assets/avatar-1.svg'
-import HeaderSocial from './HeaderSocial'
+import HeaderSocials from './HeaderSocials'
 import ScrollDown from './ScrollDown'
 
 const Home = () => {
@@ -10,9 +10,13 @@ const Home = () => {
       <div className='intro'>
         <img src={Me} alt='MyPicture' className='home__img' />
         <h1 className='home__name'>Emekwue Innocent</h1>
-        <span className='home__education'>I'm a Front-End Developer</span>
+        <span className='home__education'>
+          Front-End Developer | Data Analyst | Project Manager
+        </span>
+        <br />
+        <span className='home__education'>Philosopher | Author | Editor</span>
 
-        <HeaderSocial />
+        <HeaderSocials />
 
         <a href='#contact' className='btn'>
           Hire Me
