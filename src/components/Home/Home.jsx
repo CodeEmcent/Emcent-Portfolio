@@ -10,7 +10,7 @@ const Home = () => {
     <section className='home container' id='home'>
       <div className='intro'>
         <img src={Me} alt='MyPicture' className='home__img' />
-        <h1 className='home__name'>Emekwue Innocent</h1>
+        <h1 className='home__name'>CodeEmcent</h1>
         <span className='home__education'>
           Front-End Developer | Data Analyst | Project Manager
         </span>
@@ -26,9 +26,7 @@ const Home = () => {
         <ScrollDown />
       </div>
 
-      <div>
-        <Shapes />
-      </div>
+      <Shapes />
     </section>
   )
 }

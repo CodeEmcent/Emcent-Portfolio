@@ -23,8 +23,9 @@
 
 .home__socials {
   display: flex;
-  column-gap: 2.2rem;
+  column-gap: 1.75rem;
   margin: 1.5rem 0;
+  justify-content: center;
 }
 
 .home__social-link {
@@ -163,13 +164,12 @@
   top: 10%;
 }
 
-.s10{
+.s10 {
   top: 45%;
   right: 11%;
 }
 
-.s11{
+.s11 {
   bottom: 10%;
   right: 2%;
 }
-
