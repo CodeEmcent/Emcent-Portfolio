@@ -68,6 +68,11 @@
   margin-bottom: 0.5rem;
 }
 
+.blog__title:hover {
+  color: var(--first-color);
+  cursor: pointer;
+}
+
 .blog__meta {
   display: flex;
   column-gap: 0.6rem;
