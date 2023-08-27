@@ -13,7 +13,7 @@ const AboutBox = () => {
       </div>
 
       <div className='about__box'>
-        <i className='about__icon icon-cup'> </i>
+        <i className='about__icon icon-cup'></i>
 
         <div>
           <h3 className='about__title'>5670</h3>

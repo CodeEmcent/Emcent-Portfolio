@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './sidebar.css'
 import Logo from '../../assets/logo.svg'
 
 const Sidebar = () => {
+  const [toggle, showMenu] = useState(false)
   return (
     <>
       <aside className='aside'>
@@ -62,7 +63,7 @@ const Sidebar = () => {
         </div>
       </aside>
 
-      <div className='nav__toggle'>
+      <div className={toggle ? 'nav__toggle nav__toggle-open' : 'nav__toggle'}>
         <i className='icon-menu'></i>
       </div>
     </>
